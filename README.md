@@ -24,12 +24,12 @@ Visit http://localhost:9090
 ## Create (consumer driven) contract 
 (If a provider is running, kill it to make sure that port 8080 is available)  
 ```console
-consumer ❯ mvn ./mvnw test
+consumer ❯ ./mvnw test
 ```
 Pact contract is stored at: `consumer/target/pacts`  
 
 ## Test provider against contract
 (If a provider is running, kill it to make sure that port 8080 is available)  
 ```console
-provider ❯ mvn ./mvnw test
+provider ❯ ./mvnw test
 ```
